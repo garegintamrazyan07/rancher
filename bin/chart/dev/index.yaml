@@ -3,7 +3,7 @@ entries:
   rancher:
   - apiVersion: v1
     appVersion: f55a19488-dirty
-    created: "2022-02-07T14:55:52.249844+04:00"
+    created: "2022-02-07T17:14:07.145676+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: cb9607549c45dcf5e06a7681063ea2b35695de9e4e2b9a08afd248904daa60d0
     home: https://rancher.com
@@ -22,8 +22,28 @@ entries:
     - rancher-0.0.0-dirty.commit-f55a19488.tgz
     version: 0.0.0-dirty.commit-f55a19488
   - apiVersion: v1
+    appVersion: bad3f770a-dirty
+    created: "2022-02-07T17:14:07.143435+04:00"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 4a147f8c10d0a272c56ba1c9439cc5647b572cb6761c18f31e02c1b541d93507
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.23.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-0.0.0-dirty.commit-bad3f770a.tgz
+    version: 0.0.0-dirty.commit-bad3f770a
+  - apiVersion: v1
     appVersion: 350067187-dirty
-    created: "2022-02-07T14:55:52.248791+04:00"
+    created: "2022-02-07T17:14:07.142169+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: d46cec94cbed2df4c264ec94067836321634e3de61660f0335a4cc705120e616
     home: https://rancher.com
@@ -43,7 +63,7 @@ entries:
     version: 0.0.0-dirty.commit-350067187
   - apiVersion: v1
     appVersion: 32d68edca-dirty
-    created: "2022-02-07T14:55:52.247721+04:00"
+    created: "2022-02-07T17:14:07.139678+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 9fff562ff219aebaa0298e3416ef7c9c5e20adf4477a390e6fe0f261dfa6a658
     home: https://rancher.com
@@ -61,4 +81,4 @@ entries:
     urls:
     - rancher-0.0.0-dirty.commit-32d68edca.tgz
     version: 0.0.0-dirty.commit-32d68edca
-generated: "2022-02-07T14:55:52.246412+04:00"
+generated: "2022-02-07T17:14:07.136645+04:00"
