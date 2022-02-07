@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   rancher:
   - apiVersion: v1
+    appVersion: f55a19488-dirty
+    created: "2022-02-07T14:48:19.766338+04:00"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: cb9607549c45dcf5e06a7681063ea2b35695de9e4e2b9a08afd248904daa60d0
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.23.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-0.0.0-dirty.commit-f55a19488.tgz
+    version: 0.0.0-dirty.commit-f55a19488
+  - apiVersion: v1
     appVersion: 350067187-dirty
-    created: "2022-02-07T13:52:20.913853+04:00"
+    created: "2022-02-07T14:48:19.765135+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: d46cec94cbed2df4c264ec94067836321634e3de61660f0335a4cc705120e616
     home: https://rancher.com
@@ -21,4 +41,4 @@ entries:
     urls:
     - rancher-0.0.0-dirty.commit-350067187.tgz
     version: 0.0.0-dirty.commit-350067187
-generated: "2022-02-07T13:52:20.91187+04:00"
+generated: "2022-02-07T14:48:19.762323+04:00"
