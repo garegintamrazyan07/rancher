@@ -1,0 +1,31 @@
+kind: AuthConfig
+apiVersion: management.cattle.io/v3
+type: freeIpaConfig
+metadata:
+  labels:
+    cattle.io/creator: norman
+  name: freeipa
+accessMode: {{ .Values.freeipa.accessMode }}
+connectionTimeout: {{ .Values.freeipa.connectionTimeout }}
+enabled: true
+groupDNAttribute:  {{ .Values.freeipa.groupDNAttribute | default "entryDN" }} 
+groupMemberMappingAttribute:  {{ .Values.freeipa.groupMemberMappingAttribute | default "member" }}  
+groupMemberUserAttribute: {{ .Values.freeipa.groupMemberUserAttribute | default "entryDN" }}  
+groupNameAttribute: {{ .Values.freeipa.groupNameAttribute | default "cn" }} 
+groupObjectClass:  {{ .Values.freeipa.groupObjectClass | default "groupOfNames" }} 
+groupSearchAttribute: {{ .Values.freeipa.groupSearchAttribute | default "cn" }}  
+groupSearchBase: {{ .Values.freeipa.groupSearchBase }}   
+nestedGroupMembershipEnabled: {{ .Values.freeipa.nestedGroupMembershipEnabled | default false }}    
+port: {{ .Values.freeipa.port}}     
+servers: 
+  {{- range .Values.freeipa.servers }}
+   {{.}}
+  {{- end }}
+serviceAccountDistinguishedName: {{ .Values.freeipa.serviceAccountDistinguishedName }} 
+serviceAccountPassword: cattle-global-data:freeipaconfig-serviceaccountpassword
+userLoginAttribute: {{ .Values.freeipa.userLoginAttribute | default "uid" }}  
+userMemberAttribute: {{ .Values.freeipa.userMemberAttribute | default "memberOf" }}   
+userNameAttribute: {{ .Values.freeipa.userNameAttribute | default "cn" }}   
+userObjectClass: {{ .Values.freeipa.userObjectClass | default "inetOrgPerson" }}   
+userSearchAttribute: {{ .Values.freeipa.userSearchAttribute | default "uid|sn|givenName" }}   
+userSearchBase: {{ .Values.freeipa.userSearchBase}}     
