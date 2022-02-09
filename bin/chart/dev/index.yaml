@@ -3,7 +3,7 @@ entries:
   rancher:
   - apiVersion: v1
     appVersion: f55a19488-dirty
-    created: "2022-02-09T12:32:53.208948+04:00"
+    created: "2022-02-09T13:06:10.909263+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: cb9607549c45dcf5e06a7681063ea2b35695de9e4e2b9a08afd248904daa60d0
     home: https://rancher.com
@@ -23,7 +23,7 @@ entries:
     version: 0.0.0-dirty.commit-f55a19488
   - apiVersion: v1
     appVersion: f2245764d-dirty
-    created: "2022-02-09T12:32:53.207954+04:00"
+    created: "2022-02-09T13:06:10.907212+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: df125410973c5db8a4a3fccdc1690622830b095b0e9a5a7c24c940a47b71f10f
     home: https://rancher.com
@@ -43,7 +43,7 @@ entries:
     version: 0.0.0-dirty.commit-f2245764d
   - apiVersion: v1
     appVersion: dcb5b0e3d-dirty
-    created: "2022-02-09T12:32:53.206913+04:00"
+    created: "2022-02-09T13:06:10.905173+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 8d1e0c0ffeacf8a7dd4e593aa5db4ac0c50b09a61bb1f6d1db2962de7f7a1b0e
     home: https://rancher.com
@@ -63,7 +63,7 @@ entries:
     version: 0.0.0-dirty.commit-dcb5b0e3d
   - apiVersion: v1
     appVersion: db3c69924-dirty
-    created: "2022-02-09T12:32:53.205831+04:00"
+    created: "2022-02-09T13:06:10.902585+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 8e6601c2bbdfe5f636f2ba147531f5ea1e8bc04eb58cce12432eddc653828390
     home: https://rancher.com
@@ -83,7 +83,7 @@ entries:
     version: 0.0.0-dirty.commit-db3c69924
   - apiVersion: v1
     appVersion: cc22e8fd8-dirty
-    created: "2022-02-09T12:32:53.204796+04:00"
+    created: "2022-02-09T13:06:10.900589+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 8b7ca1baf1cc1a3bacdad2ad1d3401989ba9110ace4c2dbbb2ff14290aed525d
     home: https://rancher.com
@@ -103,7 +103,7 @@ entries:
     version: 0.0.0-dirty.commit-cc22e8fd8
   - apiVersion: v1
     appVersion: c2a3b1024-dirty
-    created: "2022-02-09T12:32:53.203665+04:00"
+    created: "2022-02-09T13:06:10.898612+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 827780695210bd523fb46a35924e6c6cb1cd90199524f5164d2f1f71a8b09a19
     home: https://rancher.com
@@ -123,7 +123,7 @@ entries:
     version: 0.0.0-dirty.commit-c2a3b1024
   - apiVersion: v1
     appVersion: bad3f770a-dirty
-    created: "2022-02-09T12:32:53.201794+04:00"
+    created: "2022-02-09T13:06:10.89603+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 4a147f8c10d0a272c56ba1c9439cc5647b572cb6761c18f31e02c1b541d93507
     home: https://rancher.com
@@ -142,8 +142,28 @@ entries:
     - rancher-0.0.0-dirty.commit-bad3f770a.tgz
     version: 0.0.0-dirty.commit-bad3f770a
   - apiVersion: v1
+    appVersion: ade82ba85-dirty
+    created: "2022-02-09T13:06:10.894007+04:00"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: fcd2b62a0ea4eab7b4f3c941850057de86e4fa05cb12d0cc1b609568d027d515
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.23.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-0.0.0-dirty.commit-ade82ba85.tgz
+    version: 0.0.0-dirty.commit-ade82ba85
+  - apiVersion: v1
     appVersion: 9a9e4b627-dirty
-    created: "2022-02-09T12:32:53.200575+04:00"
+    created: "2022-02-09T13:06:10.892238+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 712fbcc5ec0abaceec08f71998cdaf0de48085146c9e08c91067d282d90d90c7
     home: https://rancher.com
@@ -163,7 +183,7 @@ entries:
     version: 0.0.0-dirty.commit-9a9e4b627
   - apiVersion: v1
     appVersion: 7a658aaef-dirty
-    created: "2022-02-09T12:32:53.199423+04:00"
+    created: "2022-02-09T13:06:10.890487+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 6f2b6eb07540c9887c0f8ed1af2bc53e4999693e6d1b684ef9dd2ff449a26cb9
     home: https://rancher.com
@@ -183,7 +203,7 @@ entries:
     version: 0.0.0-dirty.commit-7a658aaef
   - apiVersion: v1
     appVersion: 6cc4c87ee-dirty
-    created: "2022-02-09T12:32:53.198254+04:00"
+    created: "2022-02-09T13:06:10.888786+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 7e80022f11d45e41278022996c90623185627dd9a32bdd3b462e2318505f85b0
     home: https://rancher.com
@@ -203,7 +223,7 @@ entries:
     version: 0.0.0-dirty.commit-6cc4c87ee
   - apiVersion: v1
     appVersion: 5ecff4d2e-dirty
-    created: "2022-02-09T12:32:53.197071+04:00"
+    created: "2022-02-09T13:06:10.887065+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: c4653ec0b58a78ceb1eddcdb756be411b5cd32eec6a9a2545863bc25735a0fd1
     home: https://rancher.com
@@ -223,7 +243,7 @@ entries:
     version: 0.0.0-dirty.commit-5ecff4d2e
   - apiVersion: v1
     appVersion: 52f54441c-dirty
-    created: "2022-02-09T12:32:53.195915+04:00"
+    created: "2022-02-09T13:06:10.885438+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 216fdb14338203a4096dbc8952a66c047a5013ebd77621e0f812aab7ea36efcb
     home: https://rancher.com
@@ -243,7 +263,7 @@ entries:
     version: 0.0.0-dirty.commit-52f54441c
   - apiVersion: v1
     appVersion: 43da61589-dirty
-    created: "2022-02-09T12:32:53.194709+04:00"
+    created: "2022-02-09T13:06:10.883439+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 11a79ea0141bdbb26d77b35905f298ca9a3b0160aa2b7e6a7b0e733ee008ee36
     home: https://rancher.com
@@ -263,7 +283,7 @@ entries:
     version: 0.0.0-dirty.commit-43da61589
   - apiVersion: v1
     appVersion: 43a978a51-dirty
-    created: "2022-02-09T12:32:53.193442+04:00"
+    created: "2022-02-09T13:06:10.881719+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 312803654b4f0b2af0a64fef19ff72536566b15a8a98c5ea2a66f7b3c1db7b23
     home: https://rancher.com
@@ -283,7 +303,7 @@ entries:
     version: 0.0.0-dirty.commit-43a978a51
   - apiVersion: v1
     appVersion: 40b07bb9a-dirty
-    created: "2022-02-09T12:32:53.191378+04:00"
+    created: "2022-02-09T13:06:10.879922+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 3f867556765f70228c2d57c813d22c375e089a47d843b122baa510b0e2bfcd98
     home: https://rancher.com
@@ -303,7 +323,7 @@ entries:
     version: 0.0.0-dirty.commit-40b07bb9a
   - apiVersion: v1
     appVersion: 350067187-dirty
-    created: "2022-02-09T12:32:53.190067+04:00"
+    created: "2022-02-09T13:06:10.877577+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: d46cec94cbed2df4c264ec94067836321634e3de61660f0335a4cc705120e616
     home: https://rancher.com
@@ -323,7 +343,7 @@ entries:
     version: 0.0.0-dirty.commit-350067187
   - apiVersion: v1
     appVersion: 33ee270a8-dirty
-    created: "2022-02-09T12:32:53.188798+04:00"
+    created: "2022-02-09T13:06:10.875702+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 417b45d2840639400d8a4b8b72ac18caa340a1a4c88f280b9f0c4c168ecdc7a8
     home: https://rancher.com
@@ -343,7 +363,7 @@ entries:
     version: 0.0.0-dirty.commit-33ee270a8
   - apiVersion: v1
     appVersion: 32d68edca-dirty
-    created: "2022-02-09T12:32:53.187471+04:00"
+    created: "2022-02-09T13:06:10.873943+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 9fff562ff219aebaa0298e3416ef7c9c5e20adf4477a390e6fe0f261dfa6a658
     home: https://rancher.com
@@ -363,7 +383,7 @@ entries:
     version: 0.0.0-dirty.commit-32d68edca
   - apiVersion: v1
     appVersion: 2e7a17d66-dirty
-    created: "2022-02-09T12:32:53.186323+04:00"
+    created: "2022-02-09T13:06:10.872151+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 3122db013d5e57190910b31da95c44e50d443dcf072422cfc8932323a8f084ad
     home: https://rancher.com
@@ -383,7 +403,7 @@ entries:
     version: 0.0.0-dirty.commit-2e7a17d66
   - apiVersion: v1
     appVersion: 147b1a372-dirty
-    created: "2022-02-09T12:32:53.185164+04:00"
+    created: "2022-02-09T13:06:10.870315+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 73017a8de1049d2696dcbcd343c2295a8d470b449d8ae17b97881cd9c31901fb
     home: https://rancher.com
@@ -403,7 +423,7 @@ entries:
     version: 0.0.0-dirty.commit-147b1a372
   - apiVersion: v1
     appVersion: 0b5f56141-dirty
-    created: "2022-02-09T12:32:53.184001+04:00"
+    created: "2022-02-09T13:06:10.867981+04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 4f7647c73297b220f595024017b7a986ae4d2b9d418062aa845fb8b38bf416c3
     home: https://rancher.com
@@ -421,4 +441,4 @@ entries:
     urls:
     - rancher-0.0.0-dirty.commit-0b5f56141.tgz
     version: 0.0.0-dirty.commit-0b5f56141
-generated: "2022-02-09T12:32:53.182612+04:00"
+generated: "2022-02-09T13:06:10.865787+04:00"
